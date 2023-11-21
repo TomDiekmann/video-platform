@@ -17,7 +17,7 @@
    ```sh
    npm install
    ```
-3. Run local server and set the environment variables. You can also pass the environment variables as en environment file with the option `--env-file`
+3. Run local server and set the environment variables. You can also pass the environment variables as an environment file with the option `--env-file`
 
    ```sh
     MYSQL_ROOT_PASSWORD=test12345 NEXTAUTH_SECRET=supersecret NEXTAUTH_URL=http://localhost:3000 ADMIN_PASSWORD=admin12345 docker compose up --build
