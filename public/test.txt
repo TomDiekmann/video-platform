@@ -1,0 +1,134 @@
+{
+  data: [
+    {
+      title: "IT-Sicherheit",
+      description: "Beschreibung des Kanals",
+      playlists: {
+        create: [
+          {
+            title: "Vorlesung WS 2021/22",
+            description: "Beschreibung der Playlist",
+            videos: {
+              create: [
+                {
+                  title: "Vorlesung 1 - 13.10.2021",
+                  description: "Beschreibung des Videos",
+                  url: "https://vircadiavr.cs.upb.de/uploads/videos/WiSe22/ITS/WiSe22-ITS-01-20211013.webm"
+                },
+                {
+                  title: "Vorlesung 2 - 20.10.2021",
+                  description: "Beschreibung des Videos",
+                  url: "https://vircadiavr.cs.upb.de/uploads/videos/WiSe22/ITS/WiSe22-ITS-02-20211020.webm"
+                },
+                {
+                  title: "Vorlesung 3 - 27.10.2021",
+                  description: "Beschreibung des Videos",
+                  url: "https://vircadiavr.cs.upb.de/uploads/videos/WiSe22/ITS/WiSe22-ITS-03-20211027.webm"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      title: "Modellierung",
+      description: "Beschreibung des Kanals",
+      playlists: {
+        create: [
+          {
+            title: "Vorlesung WS 2022/23",
+            description: "Beschreibung der Playlist",
+            videos: {
+              create: [
+                {
+                  title: "Vorlesung 1 - 11.10.2022",
+                  description: "Beschreibung des Videos",
+                  url: "https://vircadiavr.cs.upb.de/uploads/videos/WiSe22/MOD/WiSe22-MOD-01-20221011.webm"
+                },
+                {
+                  title: "Vorlesung 2 - 13.10.2022",
+                  description: "Beschreibung des Videos",
+                  url: "https://vircadiavr.cs.upb.de/uploads/videos/WiSe22/MOD/WiSe22-MOD-02-20221013.webm"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      title: "Berechenbarkeit und Komplexität",
+      description: "Beschreibung des Kanals",
+      playlists: {
+        create: [
+          {
+            title: "Vorlesung WS 2022/23",
+            description: "Beschreibung der Playlist",
+            videos: {
+              create: [
+                {
+                  title: "Vorlesung 1 - 10.10.2022",
+                  description: "Beschreibung des Videos",
+                  url: "https://vircadiavr.cs.upb.de/uploads/videos/WiSe22/BUK/WiSe22-BUK-01-221010.webm"
+                },
+                {
+                  title: "Vorlesung 2 - 17.10.2022",
+                  description: "Beschreibung des Videos",
+                  url: "https://vircadiavr.cs.upb.de/uploads/videos/WiSe22/BUK/WiSe22-BUK-02-221017.webm"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      title: "Gestaltung von Nutzungsschnittstellen",
+      description: "Beschreibung des Kanals",
+      playlists: {
+        create: [
+          {
+            title: "Vorlesung WS 2021/22",
+            description: "Beschreibung der Playlist",
+            videos: {
+              create: [
+                {
+                  title: "Einführung in die Gestaltung von Nutzungsschnittstellen",
+                  description: "Beschreibung des Videos",
+                  url: "https://youtu.be/JALJ78Vc-dg"
+                },
+                {
+                  title: "E1 - Was ist Ergonomie?",
+                  description: "Beschreibung des Videos",
+                  url: "https://youtu.be/BEVQwexGV0o"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      title: "Programmierung",
+      description: "Beschreibung des Kanals",
+      playlists: {
+        create: [
+          {
+            title: "Vorlesung WS 2019/20",
+            description: "Beschreibung der Playlist",
+            videos: {
+              create: [
+                {
+                  title: "Vorlesung 1 - 08.10.2019",
+                  description: "Beschreibung des Videos",
+                  url: "https://videos.uni-paderborn.de/channel/12/getMedium/cfb0e31c246a7bf729c2478244251767.mp4?1686575911&format=Default"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
