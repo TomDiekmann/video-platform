@@ -1,0 +1,14 @@
+FROM node:18-alpine AS base
+
+WORKDIR /app
+
+# Copy Prisma schema, seed data and package.json
+COPY ./prisma/schema.prisma ./prisma/schema.prisma
+COPY ./prisma/seed.ts ./prisma/seed.ts
+COPY package.json .
+
+RUN npm install -g prisma
+RUN npm install ts-node
+
+#Push the schema to the database and seed the database
+CMD npx prisma db push --skip-generate && npx prisma db seed
